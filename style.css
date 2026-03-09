@@ -1,0 +1,149 @@
+/* Global css */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.global-btn{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.global-section{
+    padding: 3rem 0;
+
+}
+.global-heading{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.global-head-p{
+    color: #7b7b7b;
+    text-align: center;
+    margin-bottom: 8px;
+}
+/* This is Header  */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+
+}
+
+.main-menu ul li{
+    display: inline;
+    margin-left: 20px;
+
+}
+.main-menu ul li a:hover{
+    color: #ff7200;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* Frist section */
+.Fris-section{
+    background-image: url(./nur.jpg);
+    background-image: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 15rem 0;
+    text-align: center;
+}
+
+.Fris-section h2{
+    font-size: 5rem;
+    margin: 10px 0;
+}
+.Fris-section p{
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+/* About us Section  */
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    
+}
+.about-sub-div2{
+    width: 450px;
+}
+.about-sub-div2 h2{
+    font-size: 25px;
+    padding: 2rem 1;
+}
+.about-sub-div2 p{
+    color: #7b7b7b;
+    margin: 20px 0;
+    
+}
+
+/* This is Service Area  */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.cumstom-icon-size{
+    font-size: 55px;
+}
+
+/* work section  */
+.Work-single-img{
+    width: 350px;
+}
+/* Testimonaial Section  */
+.testimonaial-p{
+    color: black !important;
+    margin-top: 5px;
+}
+
+/* content Section */
+.contact-haeding{
+    font-size: 55px;
+    text-align: center;
+}
+form{
+    margin-left: 32rem;
+    padding: 10px;
+}
+form input{
+    width: 350px;
+}
+form textarea{
+    width: 350px;
+}
+.submit-btn{
+    width: 150px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* this is footer  */
+footer{
+    background-color: black;
+    text-align: center;
+    color: #7b7b7b;
+    height: 15rem;
+}
+ footer-p{
+    padding-top: 15px;
+ }
+ 
